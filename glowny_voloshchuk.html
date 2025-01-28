@@ -1,0 +1,41 @@
+<html>
+ <head>
+ <meta charset="utf-8">
+ </head>
+<body>
+    <h1 align="center">Voloshchuk 2K 28.01.2025</h1> 
+    <marquee bgcolor="red" style="color: white;">Voloshchuk</marquee>
+Layout (interfejs strony internetowej) - element konstrukcji graficznej, w ktorym ustala sie: 
+<ul>
+  <li>1. rozmieszczenie elementow (tresci) na stronie.</li>
+  <li>2. wyglad (kolorystyke, elementy dekoracyjne, kroj czcionki)</li>
+</ul>
+Popularne technologie Layoutu dla stron WWW:
+<ul>
+  <li>1. w oparciu o tabele (iframe) lub ramy (frame)</li>
+  <li>2. w oparciu o DIV'y</li>
+  <li>3. w oparciu o instrukcje HTML5 (nav, ........)</li>
+  <!-- Statystyka -->
+        <div>
+            <p>Statystyki odwiedzin: <span id="statystyka">0</span></p>
+            <script>
+                // Przykładowy skrypt do wyświetlania statystyk
+                document.getElementById('statystyka').innerText = Math.floor(Math.random() * 1000) + 1;
+            </script>
+        </div>
+ <!-- Księga gości -->
+        <div>
+            <h2>Księga Gości</h2>
+            <form>
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="message">Wiadomość:</label><br>
+                <textarea id="message" name="message" rows="5" cols="60" required></textarea><br>
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
+</body>
+</html>
